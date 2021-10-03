@@ -1,0 +1,11 @@
+type Query {
+  jokes: [Joke]
+  jokeOfDay: Joke
+}
+
+type Joke {
+  id: ID!
+  frame: String!
+  punchline: String!
+  type: String!
+}
