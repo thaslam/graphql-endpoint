@@ -1,0 +1,9 @@
+overwrite: true
+schema:
+  - ../api/jokesmodel/schema.graphql
+
+generates:
+  ./model/types.d.ts:
+    plugins:
+      - typescript
+
